@@ -1030,3 +1030,76 @@ body {
     z-index: 10000000000000000;
 }
 
+@media (max-width: 768px) {
+
+  body {
+    padding: 20px 10px;
+  }
+
+  .box__account {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .left, .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right .image img {
+    width: 200px;
+    height: auto;
+  }
+
+  .title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  #btn__letter {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .box__letter {
+    width: 95%;
+    height: 90%;
+  }
+
+  .box__letter .letter__border {
+    padding: 15px;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  .box__letter .fa-xmark {
+    font-size: 22px;
+    right: 15px;
+    top: 10px;
+  }
+
+  .text__letter {
+    font-size: 14px;
+    word-spacing: 1px;
+  }
+
+  .cricle .fa-heart {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .image__ballon {
+    width: 80px;
+    height: 100px;
+  }
+
+  .image__ballon1 {
+    left: 5%;
+  }
+
+  .image__ballon2 {
+    right: 5%;
+  }
+}
+
